@@ -1,0 +1,33 @@
+name: py27
+channels:
+- conda-forge
+- defaults
+dependencies:
+- blas=1.1=openblas
+- freetype=2.7=1
+- jpeg=9b=1
+- libgfortran=3.0.0=0
+- libpng=1.6.28=1
+- libtiff=4.0.7=0
+- numpy=1.13.3=py27_blas_openblas_200
+- olefile=0.44=py27_0
+- openblas=0.2.19=2
+- pillow=4.3.0=py27_0
+- scipy=0.19.1=py27_blas_openblas_202
+- xz=5.2.3=0
+- zlib=1.2.8=3
+- certifi=2016.2.28=py27_0
+- openssl=1.0.2l=0
+- pip=9.0.1=py27_1
+- python=2.7.13=0
+- readline=6.2=2
+- setuptools=36.4.0=py27_1
+- sqlite=3.13.0=0
+- tk=8.5.18=0
+- wheel=0.29.0=py27_0
+- pip:
+  - decorator==4.1.2
+  - networkx==1.11
+  - science-rcn==1.0.0
+prefix: /Users/neo/miniconda3/envs/py27
+
